@@ -13,10 +13,10 @@ void check(dynamic data) {
 }
 
 void main(){
-  check(MyData("Eko"));
+  check(MyData("Dedy"));
   check(MyData(100));
   check(MyData(true));
-  check("Eko");
+  check("Dedy");
   check(100);
   check(true);
 }

@@ -2,7 +2,7 @@
 import 'data/mydata.dart';
 
 void main(){
-  var dataString = MyData<String>("Eko Kurniawan");
+  var dataString = MyData<String>("Dedy Wijaya");
   var dataInt = MyData(100);
   var dataBool = MyData(true);
 

@@ -6,7 +6,7 @@ int count<T>(List<T> list) {
 
 void main() {
   var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-  var names = ["Eko", "Kuriawan", "Khanedy"];
+  var names = ["Dedy", "Wijaya", "Mtv"];
 
   print(ArrayHelper.count<int>(numbers));
   print(ArrayHelper.count<String>(names));

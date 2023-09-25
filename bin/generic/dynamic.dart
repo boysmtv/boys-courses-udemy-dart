@@ -6,7 +6,7 @@ void printData(MyData data){
 }
 
 void main(){
-  printData(MyData("Eko"));
+  printData(MyData("Dedy"));
   printData(MyData(100));
   printData(MyData(true));
 }
