@@ -1,4 +1,4 @@
-void main(){
+void main() {
   final names = ["Dedy", "Wijaya", "Mtv"];
 
   for (var name in names) {

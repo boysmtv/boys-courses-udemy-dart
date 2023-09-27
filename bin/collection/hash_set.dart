@@ -1,10 +1,13 @@
 import 'dart:collection';
 
-void main(){
-
+void main() {
   final set = HashSet<String>();
 
-  set..add("Dedy")..add('Budi')..add("Wijaya")..add("Mtv");
+  set
+    ..add("Dedy")
+    ..add('Budi')
+    ..add("Wijaya")
+    ..add("Mtv");
 
   print(set);
 }

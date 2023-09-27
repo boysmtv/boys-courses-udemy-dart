@@ -7,9 +7,9 @@ void main() {
   queue.addLast("Wijaya");
   queue.addLast("Mtv");
 
-  print(queue.removeFirst());
-  print(queue.removeFirst());
-  print(queue.removeFirst());
+  print(queue.removeLast());
+  print(queue.removeLast());
+  print(queue.removeLast());
 
   print(queue);
 }

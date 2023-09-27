@@ -1,4 +1,4 @@
-void main(){
+void main() {
   final list = <int>[];
 
   print(list);

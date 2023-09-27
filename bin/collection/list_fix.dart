@@ -1,4 +1,4 @@
-void main(){
+void main() {
   final list = List<int>.filled(10, 0);
 
   // list.add(100); ERROR

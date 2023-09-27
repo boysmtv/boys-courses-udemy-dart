@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-class Category implements Comparable<Category>{
+class Category implements Comparable<Category> {
   String id;
   String name;
 
@@ -17,8 +17,7 @@ class Category implements Comparable<Category>{
   }
 }
 
-void main(){
-
+void main() {
   final treeSet = SplayTreeSet<Category>();
   // final treeSet = SplayTreeSet<Category>((a, b) => b.compareTo(a));
   treeSet.add(Category('3', 'Category 3'));
@@ -26,5 +25,4 @@ void main(){
   treeSet.add(Category('2', 'Category 2'));
 
   print(treeSet);
-
 }
